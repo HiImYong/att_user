@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+
+  "compilerOptions": {
+    "lib": ["es6", "dom"], // here} // 에러대응 : Property 'value' does not exist on type 'EventTarget & HTMLInputElement'. Try changing the 'lib' compiler option to include 'dom'.ts(2812)
+
+
+}
+}
